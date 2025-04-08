@@ -135,11 +135,19 @@ button:hover {
 footer
 {
     font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* або center, якщо хочете центрувати */
+    gap: 10px; /* відстань між посиланнями */
+    padding: 20px;
+    
     
 }
  footer a {
     text-decoration: none;
     color: #5699B5;
+    
+    
 }
 .aboutp {
     font-size: 40px;
