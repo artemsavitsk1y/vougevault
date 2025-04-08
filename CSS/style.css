@@ -124,3 +124,42 @@ button:hover {
         padding: 8px;
     }
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 100px;
+}
+footer
+{
+    font-size: 40px;
+    
+}
+ footer a {
+    text-decoration: none;
+    color: #5699B5;
+}
+.aboutp {
+    font-size: 40px;
+    font-weight: lighter;
+    border-radius: 3px;
+    
+    
+}
+a {
+    text-decoration: none;
+    color: #5699B5;
+}
+.socialmed
+{
+    font-size: 40px;
+    font-weight: lighter;
+    border-radius: 3px;
+    text-align: justify;
+    
+}
+li {
+    list-style-type: none;
+}
