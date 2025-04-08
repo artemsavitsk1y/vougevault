@@ -12,15 +12,14 @@ body {
     height: auto;
 }
 .item-wrapper {
-    width: 1340px;
+    width: 90%;
     margin: 0 auto;
 } 
 .items{
     display: flex;
     justify-content: center;
-    padding: 20px 0px;
+    flex-wrap: wrap;
     gap: 30px;
-    left: 800px;
     
 }
 
@@ -74,14 +73,12 @@ button:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 .nav {
-    font-size: 50px;
     position: absolute;
+    top: 20px;
+    right: 30px;
     display: flex;
-    left: 2400px;
     gap: 20px;
-    text-align: right;
-    margin: 0;
-    top: 10px;
+    font-size: 28px;
 }
 .nav i {
     cursor: pointer;
@@ -91,4 +88,39 @@ button:hover {
 .nav i:hover {
     transform: scale(1.2);
     color: #5699B5 
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    .items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .items img {
+        max-width: 90%;
+    }
+
+    .nav {
+        font-size: 24px;
+        right: 20px;
+        top: 10px;
+    }
+
+    .logo-container img {
+        max-width: 150px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .price {
+        font-size: 16px;
+        padding: 8px;
+    }
 }
